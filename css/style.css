@@ -1,9 +1,28 @@
 .formulario{
 		position:absolute;
 		left:60%;
-		transform:translateX(-70);
+		transform:translateX(-60);
 }
 .campo{
+	/*width:200px;
+	height:30px;
+	border-radius:10px;*/
+	outline:0;
+	border-width:0 0 2px;
+	border-bottom-color:blue;
+}
+
+.container{
+	display:flex;
+	margin-bottom:10px;
+}
+.país{
+	position:absolute;
+	top:43%;
+	left:50%;
+	transform:translateX(-43%,50%);
+}
+.bt-cadastro{
 	width:200px;
 	height:30px;
 	border-radius:10px;
