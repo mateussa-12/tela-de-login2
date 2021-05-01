@@ -6,7 +6,12 @@
 .campo{
 	/*width:200px;
 	height:30px;
-	border-radius:10px;*/
+	padding:10px;
+	border-radius:10px;
+	background: url(../img/country-icon-23.jpeg) no-repeat scroll 7px 7px;
+	padding-left:30px;
+	*/
+	width:40%;
 	outline:0;
 	border-width:0 0 2px;
 	border-bottom-color:blue;
@@ -16,15 +21,34 @@
 	display:flex;
 	margin-bottom:10px;
 }
+
 .país{
 	position:absolute;
-	top:38%;
-	left:50%;
+	top:48%;
+	left:40%;
 	transform:translateX(-43%,50%);
 }
+
+.endereco{
+	width:60%;
+	outline:0;
+	border-width:0 0 2px;
+	border-bottom-color:blue;
+}
+
 .bt-cadastro{
 	width:200px;
 	height:30px;
 	border-radius:10px;
 	border:1px solid #3d3d3e;
 }
+
+/*.icon i{
+	position :absolute;
+	
+}*/
+.icon{
+	padding:10px;
+	min-width:5px;
+	text-align:center;
+} 
