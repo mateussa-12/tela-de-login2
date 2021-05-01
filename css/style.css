@@ -1,7 +1,8 @@
 .formulario{
 		position:absolute;
+		top:10%;
 		left:60%;
-		transform:translateX(-60);
+		transform:translateX(-10%,-60);
 }
 .campo{
 	/*width:200px;
@@ -15,6 +16,12 @@
 	outline:0;
 	border-width:0 0 2px;
 	border-bottom-color:blue;
+}
+
+.texto{/*
+	position:absolute;
+	right:10%;
+	transform:translatey(-10%);*/
 }
 
 .container{
