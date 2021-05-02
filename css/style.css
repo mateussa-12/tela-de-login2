@@ -4,6 +4,10 @@
 		left:60%;
 		transform:translateX(-10%,-60);
 }
+.background{
+	background-color:white;
+}
+
 .campo{
 	/*width:200px;
 	height:30px;
@@ -12,42 +16,69 @@
 	background: url(../img/country-icon-23.jpeg) no-repeat scroll 7px 7px;
 	padding-left:30px;
 	*/
-	width:40%;
+	width:70%;
 	outline:0;
 	border-width:0 0 2px;
 	border-bottom-color:blue;
 }
 
-.texto{/*
+.imagens{
+	height:300px;
 	position:absolute;
-	right:10%;
-	transform:translatey(-10%);*/
+	top:15%;
+	left:20%;
+	transform:translateX(-15%,-20%);
+}
+
+.texto{
+	
+	position:relative;
+	left:20%;
+	top:70%;
+	transform:translatey(-20%,-70%);
+}
+
+.corpo{
+	
+	
+	background-color:blue;
+	
 }
 
 .container{
 	display:flex;
-	margin-bottom:10px;
-}
-
-.país{
-	position:absolute;
-	top:48%;
-	left:40%;
-	transform:translateX(-43%,50%);
+	margin-top:20px;
+	margin-bottom:20px;
 }
 
 .endereco{
-	width:60%;
+	width:30%;
 	outline:0;
 	border-width:0 0 2px;
 	border-bottom-color:blue;
 }
+
+.país{
+	width:40%;
+	outline:0;
+	border-width:0 0 2px;
+	border-bottom-color:blue;
+	position:absolute;
+	top:50%;
+	left:43%;
+	transform:translateX(-50%,43%);
+}
+
+
 
 .bt-cadastro{
 	width:200px;
 	height:30px;
 	border-radius:10px;
 	border:1px solid #3d3d3e;
+}
+.bt-cadastro:hover{
+	
 }
 
 /*.icon i{
